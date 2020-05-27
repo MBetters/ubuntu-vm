@@ -66,7 +66,7 @@ If you use VS Code:
 
 If you don't use VS Code, just open your machine's `~/.ssh/config` in an editor.
 
-Copy this config into your SSH config file...
+Copy the output of this command into your SSH config file...
 
 ```bash
 vagrant ssh-config

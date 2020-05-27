@@ -44,6 +44,8 @@ Vagrant.configure("2") do |config|
   # Example for VirtualBox:
   #
   config.vm.provider "virtualbox" do |vb|
+    # Name it
+    vb.name = "DeathStar"
     # Run headless
     vb.gui = false
   end
